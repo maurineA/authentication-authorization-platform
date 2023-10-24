@@ -1,0 +1,93 @@
+.register-photo {
+    background: #f1f7fc;
+    padding: 80px 0;
+  }
+  
+  .register-photo .image-holder {
+    display: table-cell;
+    width: auto;
+    background: url(https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.webp?b=1&s=170667a&w=0&k=20&c=-UWLqQI8oIx2-sOdWemeJ4Hy1hGZi1UPy-qcivJXgyM=);
+    background-size: cover;
+    animation: slideBackground 10s linear infinite;
+  }
+
+  .slide:nth-child(1) {
+    background-image: url("https://images.unsplash.com/photo-1595126739121-68ab4225f9cf?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D");
+  }
+  
+  .slide:nth-child(2) {
+    background-image: url("https://plus.unsplash.com/premium_photo-1664298006973-e98eb94d006c?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGlnaHRuaW5nfGVufDB8fDB8fHww");
+  }
+  
+  .register-photo .form-container {
+    display: table;
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  }
+  
+  .register-photo form {
+    display: table-cell;
+    width: 400px;
+    background-color: #ffffff;
+    padding: 40px 60px;
+    color: #505e6c;
+  }
+  
+  @media (max-width:991px) {
+    .register-photo form {
+      padding: 40px;
+    }
+  }
+  
+  .register-photo form h2 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .register-photo form .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #dfe7f1;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 0px;
+    height: 40px;
+  }
+  
+  .register-photo form .form-check {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  
+  .register-photo form .btn-primary {
+    background: green;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 35px;
+    text-shadow: none;
+    outline: none !important;
+  }
+  
+  .register-photo form .btn-primary:hover, .register-photo form .btn-primary:active {
+    background: green;
+  }
+  
+  .register-photo form .btn-primary:active {
+    transform: translateY(1px);
+  }
+  
+  .register-photo form .already {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #6f7a85;
+    opacity: 0.9;
+    text-decoration: none;
+  }
